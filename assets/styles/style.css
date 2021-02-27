@@ -123,7 +123,6 @@ header {
 .header-container {
     height: 800px;
     max-width: 1170px;
-    outline: 1px solid black;
     display: grid;
     grid-template-columns: 1fr 370px;
     align-items: center; /* positions children element in the center (horizontal & vertical) of the container */
@@ -147,7 +146,7 @@ header form {
 }
 
 header form h4 {
-    padding: 1rem 0;
+    padding: 1.3rem 0;
     font-size: 18px;
     color: var(--xdarkText);
     font-family: "Inter-Bold", "Helvetica", "san-serif";
@@ -156,11 +155,8 @@ header form h4 {
 
 header form div {
     background: #fff;
-    padding: 0 1.5rem;
-}
-
-header form div {
-    padding-top: .5rem;
+    padding: 0 2rem;
+    padding-top: .6rem;
 }
 
 header form div:first-of-type {
@@ -178,7 +174,7 @@ header form input {
 
 header form input:placeholder {
     font-size: 16px;
-    color: var(--darkText);
+    color: var(--xdarkText);
 }
 
 header form input:focus {
@@ -197,7 +193,36 @@ header form input:focus {
 
 .sign-up-btns {
     display: flex;
-    border-top: 1px solid --newWite;
+    justify-content: space-between;
+    border-top: 1px solid var(--newWite);
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.sign-up-btns button:nth-of-type(1) {
+    width: 79%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.sign-up-btns button:nth-of-type(1) img {
+    margin-right: 5px;
+}
+
+.sign-up-btns button:nth-of-type(2) {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.form-container p {
+    text-align: center;
+    font-family: "Inter-Regular", "Helvetica", "san-serif";
+    margin-top: 1rem;
 }
 
 /* Buttons */
