@@ -33,12 +33,8 @@
     --xdarkText: #031B4E;
     --lightText: #5B6987;
     --xlightText: #031B4E99;
-    --newWite: rgb(243, 245, 249);
+    --newWite: #f3f5f9;
 }
-
-/* body {
-    font-family: "Inter-Medium", "Helvetica", "san-serif";
-} */
 
 a {
     text-decoration: none;
@@ -143,6 +139,65 @@ header h1 {
 .header-content p {
     font-size: 24px;
     font-family: "Inter-Light", "Helvetica", "san-serif";
+}
+
+header form {
+    border-radius: 5px;
+    background: var(--newWite);
+}
+
+header form h4 {
+    padding: 1rem 0;
+    font-size: 18px;
+    color: var(--xdarkText);
+    font-family: "Inter-Bold", "Helvetica", "san-serif";
+    text-align: center;
+}
+
+header form div {
+    background: #fff;
+    padding: 0 1.5rem;
+}
+
+header form div {
+    padding-top: .5rem;
+}
+
+header form div:first-of-type {
+    padding-top: 2rem;
+}
+
+header form input {
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    padding: .8rem 1rem;
+    border: 1px solid var(--newWite);
+    border-radius: 3px;
+}
+
+header form input:placeholder {
+    font-size: 16px;
+    color: var(--darkText);
+}
+
+header form input:focus {
+    border: 1px solid var(--priColor);
+}
+
+.email-btn {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.email-btn button {
+    width: 100%;
+    padding: 18px 0;
+}
+
+.sign-up-btns {
+    display: flex;
+    border-top: 1px solid --newWite;
 }
 
 /* Buttons */
