@@ -127,7 +127,8 @@ header {
     grid-template-columns: 1fr 370px;
     align-items: center; /* positions children element in the center (horizontal & vertical) of the container */
     color: #fff;
-
+    column-gap: 7rem;
+    padding: 0 2rem;
 }
 
 header h1 {
@@ -138,6 +139,8 @@ header h1 {
 .header-content p {
     font-size: 24px;
     font-family: "Inter-Light", "Helvetica", "san-serif";
+    margin-top: 1.5rem;
+    line-height: 1.5;
 }
 
 header form {
@@ -174,7 +177,6 @@ header form input {
 
 header form input:placeholder {
     font-size: 16px;
-    color: var(--xdarkText);
 }
 
 header form input:focus {
