@@ -128,7 +128,8 @@ header {
     align-items: center; /* positions children element in the center (horizontal & vertical) of the container */
     color: #fff;
     column-gap: 7rem;
-    padding: 0 2rem;
+    padding: 0 .5rem;
+    /* padding: 0 2rem; for responsiveness */
 }
 
 header h1 {
@@ -227,6 +228,38 @@ header form input:focus {
     margin-top: 1rem;
 }
 
+/* Sections */
+.client-section {
+    background-color: var(--newWite);
+    padding: 4rem 0;
+}
+
+.client-section h5 {
+    text-align: center;
+    font-family: "Inter-Bold", "Helvetica", "san-serif";
+    margin-bottom: 2rem;
+    color: var(--lightText);
+    letter-spacing: 1px;
+}
+
+.client-images {
+    display: flex;
+    justify-content: center;
+}
+
+.client-images img {
+    margin: 0 1.8rem;
+}
+
+.client-section > div:last-of-type {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.client-section > div:last-of-type a {
+    color: var(--priColor);
+    font-family: "Inter-Medium", "Helvetica", "san-serif";
+}
 /* Buttons */
 button {
     background: inherit;
