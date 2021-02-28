@@ -228,7 +228,7 @@ header form input:focus {
     margin-top: 1rem;
 }
 
-/* Sections */
+/* Client Sections */
 .client-section {
     background-color: var(--newWite);
     padding: 4rem 0;
@@ -260,6 +260,46 @@ header form input:focus {
     color: var(--priColor);
     font-family: "Inter-Medium", "Helvetica", "san-serif";
 }
+
+/* Static Section */
+.static-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.static-sites {
+    width: 75%;
+    border: 1px solid var(--newWite);
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 7px;
+    box-shadow:  0px 0px 1px rgba(1, 14, 40, 0.5);
+}
+
+.static-sites div:first-of-type {
+    margin-right: 2rem;
+}
+
+.static-sites div:last-of-type {
+    margin-left: auto;
+}
+
+.static-sites img {
+    max-height: 80px;
+}
+
+.static-sites h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.static-sites button {
+    padding: 1rem 4rem;
+}
+
 /* Buttons */
 button {
     background: inherit;
@@ -326,4 +366,20 @@ button {
 
 .spacing {
     padding: .45rem .85rem .55rem .85rem;
+}
+
+.font-bold {
+    font-family: "Inter-Bold", "Helvetica", "san-serif";
+}
+
+.font-regular {
+    font-family: "Inter-Regular", "Helvetica", "san-serif";
+}
+
+.font-light {
+    font-family: "Inter-Light", "Helvetica", "san-serif";
+}
+
+.font-medium {
+    font-family: "Inter-Medium", "Helvetica", "san-serif";
 }
