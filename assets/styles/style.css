@@ -29,7 +29,7 @@
 
 :root {
     --priColor: #006aff;
-    --darkText: #031B4F;
+    --darkText: #031b4f;
     --xdarkText: #031B4E;
     --lightText: #5B6987;
     --xlightText: #031B4E99;
@@ -352,9 +352,14 @@ header form input:focus {
     padding: 8rem 0;
 }
 
-.developers {
+.developers,
+.business,
+.centers {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.developers {
     text-align: center;
 }
 
@@ -385,12 +390,7 @@ header form input:focus {
 /* Business Section */
 .business-section {
     background-color: #fff;
-    padding: 8rem 0;
-}
-
-.business {
-    max-width: 1170px;
-    margin: 0 auto;
+    padding: 7rem 0;
 }
 
 .business h2 {
@@ -416,6 +416,62 @@ header form input:focus {
 
 .business-grid p {
     margin-bottom: 1.5rem;
+}
+
+/* Centers Section */
+.centers-section {
+    background-image: url("../images/bg-map.svg");
+    background-repeat: no-repeat;
+    background-position:  50% 50%;
+    background-size: cover;
+    background-color: var(--darkText);
+    color: #fff;
+    padding: 7rem 0;
+}
+
+.centers h2,
+.centers > p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.centers h2 {
+    max-width: 730px;
+    letter-spacing: -1;
+    line-height: 1;
+}
+
+.centers > p {
+    max-width: 770px;
+    margin-top: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+
+.centers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+}
+
+.centers-grid > div {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+.centers-grid > div:last-of-type,
+.centers-grid > div:nth-of-type(12) {
+    border-bottom: 0;
+}
+
+.centers-grid h6{
+    width: 90px;
+}
+
+.centers-grid p {
+    margin-right: auto;
+    opacity: .6;
 }
 
 /* Buttons */
@@ -450,6 +506,10 @@ button {
     padding: 5px 7px;
 }
 
+.torquoise-text {
+    color: #00D7D2;
+}
+
 .pri-color {
     color: var(--priColor);
 }
@@ -476,6 +536,10 @@ button {
 
 .size-12 {
     font-size: 12px;
+}
+
+.size-13 {
+    font-size: 13px;
 }
 
 .size-14 {
