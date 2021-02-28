@@ -342,6 +342,32 @@ button {
     font-family: "Inter-Bold", "Helvetica", "san-serif";
 }
 
+/* Details Section */
+.details-section {
+    /* padding: 0 2rem; */
+    display: flex;
+    justify-content: center;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    max-width: 1170px;
+}
+
+.details ul li {
+    border-left: 2px solid #E5E8ED;
+    padding: 15px 20px;
+}
+
+.details ul li:first-of-type {
+    border-left: 2px solid var(--priColor);
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 /* Utilities */
 .torquoise {
     background: #00D7D2;
