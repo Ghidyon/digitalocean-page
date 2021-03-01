@@ -356,7 +356,8 @@ header form input:focus {
 .business,
 .centers,
 .teams,
-.get-started {
+.get-started,
+.footer-container {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -523,6 +524,34 @@ header form input:focus {
 .get-started > button {
     background-color: #fff;
     padding: 1.2rem 2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #010e28;
+    font-family: "Inter-Regular", "Helvetica", "san-serif";
+    font-size: 14px;
+    /* color: #ffffff80; */
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.footer-grid ul > li:first-of-type {
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.footer-grid ul > li:not(:first-of-type),
+.footer-grid ul > li:not(:last-of-type) {
+    margin-bottom: .75rem;
+}
+
+.footer-grid ul > li:not(:first-of-type) a {
+    color: #ffffff80;
 }
 
 /* Buttons */
