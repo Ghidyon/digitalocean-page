@@ -531,13 +531,16 @@ footer {
     background-color: #010e28;
     font-family: "Inter-Regular", "Helvetica", "san-serif";
     font-size: 14px;
-    /* color: #ffffff80; */
+    padding: 6rem 0;
+    color: #ffffff80;
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
+    border-bottom: 1px solid #ffffff33;
+    padding-bottom: 2.5rem;
 }
 
 .footer-grid ul > li:first-of-type {
@@ -545,13 +548,36 @@ footer {
     margin-bottom: 1.5rem;
 }
 
-.footer-grid ul > li:not(:first-of-type),
-.footer-grid ul > li:not(:last-of-type) {
+.footer-grid ul > li:not(:first-of-type) {
     margin-bottom: .75rem;
 }
 
 .footer-grid ul > li:not(:first-of-type) a {
     color: #ffffff80;
+}
+
+.footer-grid ul > li:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer-footer {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem 0 1rem;
+}
+
+.footer-footer div:first-of-type {
+    margin-right: 1.5rem;
+}
+
+.footer-footer div:last-of-type {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer-footer div:last-of-type a:not(:last-of-type) {
+    margin-right: 1rem;
 }
 
 /* Buttons */
