@@ -109,6 +109,11 @@ nav ul {
     margin-left: 1rem;
 }
 
+.lower-navbar button.outline-btn:hover {
+    color: #fff;
+    background: var(--priColor);
+}
+
 /* Header */
 header {
     background-color: rgb(0, 105, 255);
@@ -221,6 +226,10 @@ header form input:focus {
     align-items: center;
 } 
 
+.sign-up-btns button:hover {
+    color: var(--xdarkText);
+    border-color: var(--xdarkText);
+}
 .form-container p {
     text-align: center;
     font-family: "Inter-Regular", "Helvetica", "san-serif";
@@ -524,6 +533,10 @@ header form input:focus {
 .get-started > button {
     background-color: #fff;
     padding: 1.2rem 2rem;
+}
+
+.get-started > button:hover {
+    background-color: var(--newWite);
 }
 
 /* Footer */
