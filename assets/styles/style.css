@@ -491,15 +491,21 @@ header form input:focus {
     box-shadow: 0px 2px 4px rgb(1, 14, 40, 0.05);
     border-radius: 6px;
     padding: 4rem 0;
+    margin-bottom: 4rem;
 }
 
 .rockerbox img:first-of-type {
     max-width: 200px;
 }
 
-.rockerbox div, .rockerbox p {
-    border: 1px solid black;
+.rockerbox > p:first-of-type {
+    margin: 1.8rem 0;
 }
+
+.rockerbox > p:nth-of-type(2) {
+    margin: 1.3rem 0 .7rem;
+}
+
 
 /* Buttons */
 button {
