@@ -355,7 +355,8 @@ header form input:focus {
 .developers,
 .business,
 .centers,
-.teams {
+.teams,
+.get-started {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -506,6 +507,23 @@ header form input:focus {
     margin: 1.3rem 0 .7rem;
 }
 
+/* Get Started Section */
+.get-started-section {
+    background-color: var(--priColor);
+    padding: 4rem 0;
+}
+
+.get-started {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.get-started > button {
+    background-color: #fff;
+    padding: 1.2rem 2rem;
+}
 
 /* Buttons */
 button {
@@ -514,6 +532,7 @@ button {
     outline: 0;
     cursor: pointer;
     border-radius: 5px;
+    transition: all .3s ease;
 }
 
 .outline-btn {
